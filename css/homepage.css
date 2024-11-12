@@ -20,3 +20,25 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
 }
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+
+.icons .github img{
+    height:40px;
+}
+
+.icons .youtube img{
+    height:40px;
+}
+
+.icons .gmail img{
+    height:40px;
+}
+.icons img:hover{
+    filter: drop-shadow(8px 10px 10px  #888);
+}
