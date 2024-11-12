@@ -1,0 +1,22 @@
+body{
+    background-image: url(../assets/background.png);
+    background-size: 100vw 100vh;
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.greeting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}

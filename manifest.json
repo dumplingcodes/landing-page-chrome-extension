@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "author": "dumplingcodes",
+    "name": "New Landing Page",
+    "permissions": [
+      "storage"
+    ],
+    "version": "0.1",
+    "description": "This extension overrides the default new tab.",
+    "icons": {
+      "128": "assets/lavender.jpg"
+    },
+    "chrome_url_overrides": {
+      "newtab": "homepage.html"
+    }
+
+  }
